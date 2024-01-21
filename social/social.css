@@ -1,0 +1,108 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic layout and styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+main {
+  display: flex;
+  margin: 20px;
+}
+
+#posts {
+  flex-grow: 2;
+  margin-right: 20px;
+}
+
+#sidebar {
+  flex-grow: 1;
+  background-color: #fff;
+  padding: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Post styles */
+.post {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.post h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.post p {
+  font-size: 14px;
+}
+
+/* Sidebar styles */
+#sidebar h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+#sidebar ul li {
+  margin-bottom: 5px;
+}
+
+#sidebar ul li a {
+  text-decoration: none;
+  color: #333;
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+#sidebar ul li a:hover {
+  background-color: #f5f5f5;
+}
